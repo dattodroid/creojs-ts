@@ -1,4 +1,4 @@
-const m = require("module");
+const m: typeof import("./module") = require("module.js");
 
 function test(): string {
     const session = pfcGetCurrentSession();
