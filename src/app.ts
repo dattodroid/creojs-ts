@@ -1,4 +1,4 @@
-const m: typeof import("./module") = require("module.js");
+const m: typeof import("./mods/foo") = require("foo.js");
 
 function test(): string {
     const session = pfcGetCurrentSession();
